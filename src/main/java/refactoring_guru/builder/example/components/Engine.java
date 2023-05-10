@@ -14,6 +14,9 @@ public class Engine {
     public void off(){
         started=false;
     }
+    public boolean isStarted() {
+        return started;
+    }
     public void go(double mileage){
         if (started){
             this.mileage+=mileage;
@@ -27,4 +30,5 @@ public class Engine {
     public double getMileage(){
         return mileage;
     }
+
 }

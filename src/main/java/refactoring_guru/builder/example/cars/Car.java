@@ -40,7 +40,7 @@ public class Car {
     }
 
     public int getSeats() {
-        return engine;
+        return seats;
     }
 
     public Engine getEngine() {
@@ -58,6 +58,5 @@ public class Car {
     public GPSNavigator getGpsNavigator() {
         return gpsNavigator;
     }
-
 
 }

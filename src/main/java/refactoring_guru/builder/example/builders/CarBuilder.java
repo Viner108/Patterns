@@ -28,10 +28,14 @@ public class CarBuilder implements Builder {
         this.engine = engine;
     }
 
-    public void setTransmission(TripComputer tripComputer) {
-        this.tripComputer = tripComputer;
+    public void setTransmission(Transmission transmission) {
+        this.transmission = transmission;
     }
 
+    @Override
+    public void setTripComputer(TripComputer tripComputer) {
+        this.tripComputer = tripComputer;
+    }
     public void setGPSNavigator(GPSNavigator gpsNavigator) {
         this.gpsNavigator = gpsNavigator;
     }

@@ -12,9 +12,9 @@ public class Demo {
         CarBuilder builder=new CarBuilder();
         director.constructSportsCar(builder);
         Car car =builder.getResult();
-        System.out.println("Car built:\n" + car.getCarTyte());
+        System.out.println("Car built:\n" + car.getCarType());
         CarManualBuilder manualBuilder=new CarManualBuilder();
-        builder.constructSportsCar(manualBuilder);
+        director.constructSportsCar(manualBuilder);
         Manual carManual=manualBuilder.getResult();
         System.out.println("\nCar manual built:\n" + carManual.print());
     }

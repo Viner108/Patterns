@@ -39,7 +39,7 @@ public class CarManualBuilder {
         this.gpsNavigator = gpsNavigator;
     }
 
-    public Manul getResult() {
+    public Manual getResult() {
         return new Manual(type, seats, engine, transmission, tripComputer, gpsNavigator);
     }
 }
