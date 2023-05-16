@@ -14,8 +14,8 @@ public class Demo {
         Car car =builder.getResult();
         System.out.println("Car built:\n" + car.getCarType());
         CarManualBuilder manualBuilder=new CarManualBuilder();
-        director.constructSportsCar(manualBuilder);
-        Manual carManual=manualBuilder.getResult();
-        System.out.println("\nCar manual built:\n" + carManual.print());
+//        director.constructSportsCar(manualBuilder);
+//        Manual carManual=manualBuilder.getResult();
+//        System.out.println("\nCar manual built:\n" + carManual.print());
     }
 }
